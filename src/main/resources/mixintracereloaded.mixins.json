@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.mat0u5.mixintracereloaded.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+      "CrashReportMixin",
+		"CrashReportSectionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

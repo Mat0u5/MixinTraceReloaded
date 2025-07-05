@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "mixintracereloaded",
+	"version": "${version}",
+	"name": "MixinTraceReloaded",
+	"description": "Adds a list of mixins in the stack trace to crash reports.",
+	"authors": [
+		"comp500", "Mat0u5"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/mixintracereloaded",
+		"sources": "https://github.com/Mat0u5/MixinTraceReloaded",
+		"issues": "https://github.com/Mat0u5/MixinTraceReloaded/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/mixintracereloaded/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"mixintracereloaded.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.12.0",
+		"minecraft": "*"
+	}
+}
